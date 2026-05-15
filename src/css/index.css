@@ -1,0 +1,8 @@
+@charset "utf-8";
+@import './reset.css';
+
+body, .App {
+    margin: 0;
+    padding: 0;
+    background-color: #242736;
+}
