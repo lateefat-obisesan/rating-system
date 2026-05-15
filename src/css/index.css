@@ -70,3 +70,22 @@ button {
     justify-content: center;
     align-items: center;
 }
+
+.dialog-box {
+    background: #252736;
+    padding: 80px;
+    border-radius: 8px;
+    position: relative;
+    text-align: center;
+}
+
+.close-btn {
+    position: absolute;
+    top:-120px;
+    right: 2px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.9rem;
+}
