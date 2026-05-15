@@ -26,14 +26,20 @@ body, .App {
 
 .grey {
     color: #3f4152; 
-    font-size: 2rem;
+    font-size: 4rem;
     margin: 0 4px;
     cursor: pointer;
 }
 
 .pink {
     color: rgb(206, 33, 62);
-    font-size: 2rem;
+    font-size: 4rem;
     margin: 0 4px;
     cursor: pointer;
+}
+
+.rating-part h3 {
+    font-size: 1.8rem;
+    margin-top: 15px;
+    font-weight: 400;
 }
