@@ -21,4 +21,4 @@ Lateefat Obisesan
 You can access the live application [here](https://lateefat-obisesan.github.io/rating-system/)
 
 ### Preview
-![Project Screenshot]()
+![Project Screenshot](./src/project.png)
