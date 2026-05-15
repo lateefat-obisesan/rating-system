@@ -11,3 +11,15 @@ body, .App {
     display: flex;
     justify-content: center;
 }
+
+.rating-part {
+    text-align: center;
+}
+
+.rating-part h1 {
+    font-size: 3rem;
+    letter-spacing: 1px;
+    margin-top: 300px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
