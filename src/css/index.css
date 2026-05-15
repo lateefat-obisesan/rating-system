@@ -23,3 +23,17 @@ body, .App {
     margin-bottom: 20px;
     color: #ffffff;
 }
+
+.grey {
+    color: #3f4152; 
+    font-size: 2rem;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+.pink {
+    color: rgb(206, 33, 62);
+    font-size: 2rem;
+    margin: 0 4px;
+    cursor: pointer;
+}
