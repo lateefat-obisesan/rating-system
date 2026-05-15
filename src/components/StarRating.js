@@ -18,7 +18,7 @@ function StarRating() {
             {[1,2,3,4,5].map((num) => (
                 <Star key={num} selected={num <= rating} onClick={() => setRating(num)}/>
             ))}
-            <h2>{rating === 0 ? "Select Rating" : words[rating - 1]} </h2>
+            <h3>{rating === 0 ? "Select Rating" : words[rating - 1]} </h3>
         </div>
     );
 }
