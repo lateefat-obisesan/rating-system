@@ -16,7 +16,7 @@ function StarRating() {
         <div className="rating-part">
             <h1>RATE US PLEASE</h1>
             {[1,2,3,4,5].map((num) => (
-                <Star key={nuum} selected={num <= rating} onClick={() => setRating(num)}/>
+                <Star key={num} selected={num <= rating} onClick={() => setRating(num)}/>
             ))}
             <h2>{rating === 0 ? "Select Rating" : words[rating - 1]} </h2>
         </div>
@@ -24,3 +24,5 @@ function StarRating() {
 }
 
 export default StarRating;
+
+

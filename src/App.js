@@ -1,5 +1,6 @@
 import {useState} from "react";
 import Dialog from "./components/Dialog";
+import StarRating from "./components/StarRating";
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
 
   return (
    <div className="App">
+    <StarRating/>
     <button onClick={() => setShowDialog(true)}>
       Open Dialog
     </button>

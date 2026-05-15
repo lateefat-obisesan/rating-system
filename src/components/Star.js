@@ -1,7 +1,7 @@
-import {FontAwesomeIcon } from "@fontawesome/react-fontawesome";
-import {faStar} from "@fortawesome/free-brands-svg-icons";
+import {FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faStar} from "@fortawesome/free-solid-svg-icons";
 
-function Star(selected, onClick) {
+function Star({selected, onClick}) {
     return(
         <FontAwesomeIcon icon={faStar} className={selected ? "grey" : "pink"}
         onClick={onClick}
