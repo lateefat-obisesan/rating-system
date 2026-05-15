@@ -2,7 +2,12 @@
 @import './reset.css';
 
 body, .App {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #242736;
+    color: #fff;
+    height: 100svh;
+    display: flex;
+    justify-content: center;
 }
