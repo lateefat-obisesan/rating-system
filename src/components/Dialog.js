@@ -1,7 +1,7 @@
-import StarRating from "./StarRating";
+import StarRating from "./StarRating.js";
 
 function Dialog(props) {
-    return(
+    return (
         <div className="dialog-overlay">
             <div className="dialog-box">
                 <button className="close-btn" onClick={props.closeDialog}>
