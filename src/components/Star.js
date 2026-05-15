@@ -3,8 +3,8 @@ import {faStar} from "@fortawesome/free-brands-svg-icons";
 
 function Star(selected, onClick) {
     return(
-        <FontAwesomeIcon icon={faStar} className={props.selected ? "satr selected" : "star"}
-        onClick={props.onClick}
+        <FontAwesomeIcon icon={faStar} className={selected ? "grey" : "pink"}
+        onClick={onClick}
         />
     );
 }
