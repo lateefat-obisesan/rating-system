@@ -1,4 +1,17 @@
+import { useState } from "react";
+import Star  from "./Star";
+
 function StarRating() {
+    const [rating, setRating] = useState(0);
+
+    const words = [
+        "Very Bad",
+        "Bad",
+        "Okay",
+        "Good",
+        "Very Good"
+    ];
+  
     return(
         <></>
     );
